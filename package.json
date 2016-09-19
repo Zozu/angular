@@ -13,5 +13,19 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "nconf": "^0.8.4",
+    "browser-sync": "^2.12.10",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-bower": "0.0.13",
+    "gulp-inject": "^4.1.0",
+    "gulp-nodemon": "^2.0.7",
+    "gulp-sass": "^2.3.1",
+    "main-bower-files": "^2.13.1",
+    "proxy-middleware": "^0.15.0",
+    "yargs": "^4.7.1"
   }
 }

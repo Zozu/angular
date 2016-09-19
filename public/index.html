@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="ang">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- bower:css -->
+	<link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+	<!-- endinject -->
+	<!-- inject:css -->
+	<link rel="stylesheet" href="assets/styles/css/main.css">
+	<!-- endinject -->
+	<!-- bower:js -->
+	<script src="assets/jquery/dist/jquery.js"></script>
+	<script src="assets/angular/angular.js"></script>
+	<script src="assets/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- endinject -->
+	<!-- inject:js -->
+	<script src="app/app.js"></script>
+	<script src="app/services/storageService.js"></script>
+	<script src="app/photo/photoController.js"></script>
+	<script src="app/home/homeController.js"></script>
+	<script src="app/app.run.js"></script>
+	<script src="app/app.router.js"></script>
+	<!-- endinject -->
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>PhotoGallery <small>{{route}}</small></h1>
+		</div>
+		<div ui-view class="row"></div>
+	</div>
+</body>
+</html>

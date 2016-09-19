@@ -1,0 +1,27 @@
+{
+  "name": "angular",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/Zozu/angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "1.4.9",
+    "angular-ui-router": "^0.3.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}

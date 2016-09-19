@@ -1,0 +1,16 @@
+<div class="row">
+	<table class="table table-hover">
+		<thead>
+			<td>ID</td>
+			<td>Name: <input type="text" ng-model="filterValue" placeholder="Search..." ng-change="updateList()"></td>
+			<td>Likes count</td>
+			<td>Visible</td>
+		</thead>
+		<tr ng-repeat="image in images" ng-click="openPhoto(image.id)" class="pointer">
+			<td>{{$index}}</td>
+			<td>{{image.name}}</td>
+			<td>{{image.likes}}</td>
+			<td><input type="checkbox" ng-model="image.visible" disabled> </td>
+		</tr>
+	</table>
+</div>

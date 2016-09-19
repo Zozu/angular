@@ -1,0 +1,13 @@
+<div class="row">
+		Photo name: <br>
+		<input class="form-control" type="text" ng-model="photo.name"> <br>
+		Author: <br>
+		{{photo.author}}<br>
+		<input type="checkbox" ng-model="photo.visible"> Visible <br>
+		&#x2764; {{photo.likes}}
+	</form>
+</div>
+<div class="row">
+	<button class="btn btn-success" ng-click="save()">Save</button>
+	<button class="btn btn-default" ng-click="cancel()">Cancel</button>
+</div>
